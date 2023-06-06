@@ -115,6 +115,10 @@ li {
     border-bottom: 1px solid grey;
 }
 
+.border-top {
+    border-top: 1px solid grey;
+}
+
 .btn-white {
     border: 1px solid black;
     background-color: white;
@@ -396,4 +400,16 @@ h1 {
     background-color: white;
     color: black;
     padding: 0.8rem 2.5rem;
+}
+
+/* faq-section */
+.faq-section span {
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.faq-folder {
+    justify-content: space-between;
+    align-items: center;
 }
