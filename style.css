@@ -13,7 +13,7 @@
 
 /* generics */
 .container {
-    width: 900px;
+    width: 980px;
     margin: 0 auto;
 }
 
@@ -53,8 +53,16 @@
     display: inline-block;
 }
 
+li {
+    list-style: none;
+}
+
 .txt-white {
     color: white;
+}
+
+.txt-grey {
+    color: grey;
 }
 
 .center {
@@ -67,6 +75,31 @@
 
 .margintop30 {
     margin-top: 30px;
+}
+
+.margintop10 {
+    margin-top: 10px;
+}
+
+.marginbottom30 {
+    margin-bottom: 30px;
+}
+
+.decoration-none {
+    text-decoration: none;
+    color: white;
+}
+
+.paddingbottom30 {
+    padding-bottom: 30px;
+}
+
+.txtblue {
+    color: var(--primary-color);
+}
+
+.border-bottom {
+    border-bottom: 1px solid grey;
 }
 
 /* header */
@@ -107,6 +140,7 @@ header a {
     min-height: 500px;
     background-color: var(--primary-color-light);
     padding-bottom: 20px;
+
 }
 
 h1 {
@@ -136,4 +170,62 @@ h1 {
 .image-jumbo {
     height: 390px;
     bottom: -60px;
+}
+
+/* business-plan-section */
+.circles span {
+    margin-right: 50px;
+    text-align: center;
+}
+
+.circles span::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    display: inline-block;
+    text-align: center;
+    margin-right: 5px;
+}
+
+/* border active circles */
+
+.circles span:active::before {
+    border: 1px solid #0160FF;
+    box-shadow: 0px 0px 5px #0160FF inset;
+}
+
+/* columns */
+.col-section {
+    gap: 20px;
+}
+
+.col {
+    width: 33%;
+    min-height: 900px;
+    border: 1px solid grey;
+}
+
+.title-col {
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 10px 0;
+}
+
+.col-text {
+    padding: 20px;
+}
+
+.checkedlist li::before {
+
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    content: "\f00c";
+    color: var(--primary-color);
+
+}
+
+.buttons-col span {
+    display: inline-block;
 }
