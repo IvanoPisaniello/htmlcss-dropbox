@@ -90,6 +90,14 @@ li {
     margin-bottom: 30px;
 }
 
+.margintop100 {
+    margin-top: 100px;
+}
+
+.marginbottom100 {
+    margin-bottom: 100px;
+}
+
 .decoration-none {
     text-decoration: none;
     color: white;
@@ -289,4 +297,10 @@ h1 {
 
 .cards-img {
     height: 200px;
+}
+
+/* first banner */
+.first-banner a {
+    color: var(--primary-color);
+    display: inline-block;
 }
