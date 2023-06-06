@@ -125,6 +125,10 @@ li {
     padding: 30px;
 }
 
+h2 {
+    font-size: 2rem;
+}
+
 /* color-palette */
 .bg-designit-green {
     background-color: #A2D39B;
@@ -371,4 +375,25 @@ h1 {
 
 .central-card-img {
     height: 90px;
+}
+
+/* try-section */
+.try-section {
+
+    background-color: var(--primary-color-light);
+}
+
+.txt-banner {
+    width: 70%;
+    padding: 100px 0;
+}
+
+.btn-banner {
+    padding: 100px 0;
+}
+
+.btn-banner a {
+    background-color: white;
+    color: black;
+    padding: 0.8rem 2.5rem;
 }
