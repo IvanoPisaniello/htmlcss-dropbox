@@ -70,6 +70,10 @@ li {
     align-items: center;
 }
 
+.marginbottom60 {
+    margin-bottom: 60px;
+}
+
 .margintop60 {
     margin-top: 60px;
 }
@@ -101,6 +105,12 @@ li {
 
 .border-bottom {
     border-bottom: 1px solid grey;
+}
+
+.btn-white {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
 }
 
 /* header */
@@ -230,4 +240,38 @@ h1 {
 
 .buttons-col span {
     display: inline-block;
+}
+
+/* enterprise col */
+
+.enterprise-col {
+    width: 100%;
+    min-height: 200px;
+}
+
+.enterprise-txt {
+    width: 70%;
+    padding: 20px;
+}
+
+.btn-enterprise {
+    padding: 20px;
+}
+
+/* section partner */
+.section-partner {
+    min-height: 500px;
+    padding: 30px;
+}
+
+.partner-img-box {
+    width: 70%;
+}
+
+.partner-txt {
+    padding: 20px;
+}
+
+.partner-img {
+    height: 450px;
 }
