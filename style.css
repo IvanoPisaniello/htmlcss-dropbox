@@ -261,7 +261,7 @@ h1 {
 /* section partner */
 .section-partner {
     min-height: 500px;
-    padding: 30px;
+    padding-top: 30px;
 }
 
 .partner-img-box {
