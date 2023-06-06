@@ -413,3 +413,38 @@ h1 {
     justify-content: space-between;
     align-items: center;
 }
+
+/* footer */
+
+
+.footer-col {
+    width: 33%;
+}
+
+footer {
+    background-color: var(--secondary-colo);
+    min-height: 400px;
+    padding: 50px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer li {
+    padding: 10px 0;
+}
+
+.earth::before {
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    content: "\f57d";
+}
+
+.earth::after {
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    content: "\f0d8";
+
+}
