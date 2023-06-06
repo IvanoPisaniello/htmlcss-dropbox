@@ -1,0 +1,139 @@
+:root {
+    --primary-color-light: #B3D0E7;
+    --primary-color: #0160FF;
+    --secondary-colo: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* generics */
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.cont-small {
+    width: 900px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.border {
+    border: 1px dashed;
+}
+
+.relative {
+    position: relative;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.btn {
+    padding: 0.3rem 1rem;
+    background-color: var(--primary-color);
+}
+
+.btn-big {
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.6rem 0.6rem;
+    display: inline-block;
+}
+
+.txt-white {
+    color: white;
+}
+
+.center {
+    align-items: center;
+}
+
+.margintop60 {
+    margin-top: 60px;
+}
+
+.margintop30 {
+    margin-top: 30px;
+}
+
+/* header */
+
+
+header {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    flex-wrap: wrap;
+}
+
+.logo {}
+
+header li {
+    margin: 10px;
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.txt-black {
+    color: black;
+}
+
+/* jumbotron */
+.jumbo {
+    min-height: 500px;
+    background-color: var(--primary-color-light);
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: left;
+    padding-top: 80px;
+}
+
+.jumbo-txt {
+    width: 30%;
+}
+
+.jumb-img {
+    width: 70%;
+}
+
+.jumbo a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.fa-arrow-down {
+    font-size: 3rem;
+
+}
+
+.image-jumbo {
+    height: 390px;
+    bottom: -60px;
+}
