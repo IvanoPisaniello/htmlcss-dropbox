@@ -121,6 +121,47 @@ li {
     color: black;
 }
 
+.padding30 {
+    padding: 30px;
+}
+
+/* color-palette */
+.bg-designit-green {
+    background-color: #A2D39B;
+}
+
+.bg-asu {
+    background-color: #61092B;
+}
+
+.bg-uf {
+    background-color: #0093CE;
+}
+
+.bg-topps {
+    background-color: #FF1B1C;
+}
+
+.bg-designit {
+    background-color: #F5F5F5;
+}
+
+.bg-bicicle-relief {
+    background-color: #D4001F;
+}
+
+.bg-hearst {
+    background-color: #B3D0E7;
+}
+
+.bg-lonely {
+    background-color: #0E2381;
+}
+
+.bg-clear {
+    background-color: #FFD72F;
+}
+
 /* header */
 
 
@@ -303,4 +344,31 @@ h1 {
 .first-banner a {
     color: var(--primary-color);
     display: inline-block;
+}
+
+/* university-cards */
+.university-col {
+    width: 33%;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.university-card {
+    height: 200px;
+    width: 234px;
+    justify-content: center;
+    align-items: center;
+}
+
+.university-img {
+    height: 50px;
+    filter: invert(1);
+}
+
+.university-img-small {
+    height: 20px;
+}
+
+.central-card-img {
+    height: 90px;
 }
