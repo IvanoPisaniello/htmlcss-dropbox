@@ -361,6 +361,7 @@ h1 {
     width: 50%;
     height: 400px;
     flex-wrap: wrap;
+    aspect-ratio: 1/1;
 }
 
 .university-card {
@@ -369,9 +370,6 @@ h1 {
     justify-content: center;
     align-items: center;
     transition: border 0.3s linear;
-
-
-
 }
 
 .university-card:active {
@@ -393,6 +391,10 @@ h1 {
     height: 90px;
 }
 
+.central-card {
+    height: 100%;
+    overflow: auto;
+}
 
 
 /* try-section */
@@ -467,16 +469,6 @@ footer li {
 
 }
 
-/* bonus cards */
-
-.central-card {
-    display: none;
-}
-
-.bg-designit-green:active .central-card {
-    display: block;
-}
-
 /* bonus-faq */
 .question:hover .fa-angle-down {
     transform: rotate(180deg);
@@ -486,13 +478,11 @@ footer li {
     display: none;
     font-size: 0.9rem;
     padding: 0 50px 20px 0;
-    transition: display 2s linear;
-}
 
-.question {
-    transition: display 2s linear;
 }
 
 .question:hover .answer {
     display: block;
 }
+
+/* bonus cards */
