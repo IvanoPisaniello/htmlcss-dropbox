@@ -272,7 +272,7 @@ h1 {
 
 .col {
     width: 33%;
-    min-height: 900px;
+    min-height: 100%;
     border: 1px solid grey;
 }
 
@@ -339,6 +339,8 @@ h1 {
     flex-wrap: wrap;
 }
 
+
+
 .card {
     width: 30%;
     min-height: 400px;
@@ -366,10 +368,13 @@ h1 {
     width: 50%;
     justify-content: center;
     align-items: center;
-    transition: border 0.8s linear;
+    transition: border 0.3s linear;
+
+
+
 }
 
-.university-card:hover {
+.university-card:active {
     border: 10px solid rgba(248, 248, 248, 0.3);
 }
 
@@ -387,6 +392,8 @@ h1 {
 .central-card-img {
     height: 90px;
 }
+
+
 
 /* try-section */
 .try-section {
@@ -419,6 +426,10 @@ h1 {
 .faq-folder {
     justify-content: space-between;
     align-items: center;
+}
+
+.faq-section {
+    min-height: 400px;
 }
 
 /* footer */
@@ -454,4 +465,34 @@ footer li {
     font-weight: 900;
     content: "\f0d8";
 
+}
+
+/* bonus cards */
+
+.central-card {
+    display: none;
+}
+
+.bg-designit-green:active .central-card {
+    display: block;
+}
+
+/* bonus-faq */
+.question:hover .fa-angle-down {
+    transform: rotate(180deg);
+}
+
+.answer {
+    display: none;
+    font-size: 0.9rem;
+    padding: 0 50px 20px 0;
+    transition: display 2s linear;
+}
+
+.question {
+    transition: display 2s linear;
+}
+
+.question:hover .answer {
+    display: block;
 }
