@@ -372,7 +372,7 @@ h1 {
     transition: border 0.3s linear;
 }
 
-.university-card:active {
+.university-card:hover {
     border: 10px solid rgba(248, 248, 248, 0.3);
 }
 
@@ -486,10 +486,130 @@ footer li {
 }
 
 /* bonus cards */
-/* #centralbox {
+.hover-designit {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: 35%;
+    top: 5%;
     display: none;
 }
 
-#active:active #centralbox {
+
+.bg-designit-green:hover~.hover-designit {
     display: block;
-} */
+    background-color: #F5F5F5;
+}
+
+.hover-asu {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    display: none;
+}
+
+
+.bg-asu:hover~.hover-asu {
+    display: block;
+    background-color: #F5F5F5;
+}
+
+.hover-uf {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    display: none;
+}
+
+
+.bg-uf:hover~.hover-uf {
+    display: block;
+    background-color: #F5F5F5;
+}
+
+.hover-topps {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    display: none;
+}
+
+
+.bg-topps:hover~.hover-topps {
+    display: block;
+    background-color: #F5F5F5;
+}
+
+/* right cards bonus */
+
+.hover-bicycle {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    display: none;
+}
+
+
+.bg-bicicle-relief:hover~.hover-bicycle {
+    display: block;
+    background-color: #F5F5F5;
+}
+
+.hover-hearst {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    display: none;
+}
+
+.img-hover {
+    width: 50%;
+}
+
+
+.bg-hearst:hover~.hover-hearst {
+    display: block;
+    background-color: #F5F5F5;
+}
+
+
+.hover-lonely {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    display: none;
+}
+
+
+.bg-lonely:hover~.hover-lonely {
+    display: block;
+    background-color: #F5F5F5;
+}
+
+.hover-clear {
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    display: none;
+
+}
+
+
+.bg-clear:hover~.hover-clear {
+    display: block;
+    background-color: #F5F5F5;
+}
