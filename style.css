@@ -262,8 +262,7 @@ h1 {
 
 .radio {
     align-items: center;
-    margin-top: 20px;
-
+    margin-top: 60px;
 }
 
 label {
@@ -394,6 +393,8 @@ input {
     justify-content: center;
     align-items: center;
     transition: border 0.3s linear;
+    border: 10px solid transparent;
+
 }
 
 .university-card:hover {
