@@ -263,14 +263,31 @@ h1 {
 .radio {
     align-items: center;
     margin-top: 20px;
+
 }
 
 label {
     margin-right: 30px;
 }
 
+input {
+    display: none;
+}
 
 
+.radio label .fake-radio {
+    content: "";
+    border: 1px solid black;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: border 0.2s linear;
+}
+
+.radio label input:checked~.fake-radio {
+    border: 4px solid var(--primary-color);
+}
 
 /* columns */
 .col-section {
